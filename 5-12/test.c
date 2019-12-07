@@ -1,5 +1,8 @@
 //**Environment Variable**
 //export OMP_NUM_THREADS=20
+// FOR MAC OS
+// brew install libomp
+// clang -Xpreprocessor -fopenmp -lomp test.c
 
 //gcc test.h -fopenmp
 //./a.out
